@@ -30,7 +30,7 @@ document.getElementById('button_add').onclick = function() {
     
     for (let index = 0; index < numero_de_tarefas.length; index++) 
     numero_de_tarefas[index].onclick = function() {
-        this.parentNode.remove()
+        this.parentode.remove()
     }
 }
 
